@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 400px;
+}
+
+.upper {
+    background-color: hsl(10, 79%, 65%);
+    height: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+
+.balance {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.lower {
+    background-color: white;
+    height: 75%;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.graph {
+    height: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.part {
+    width: 12%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    font-size: 10px;
+}
+
+.box {
+    background-color: hsl(10, 79%, 65%);
+    height: 100%;
+    border-radius: 3px;
+}
+
+.box-1 {
+    height: 30%;
+}
+
+.box-2 {
+    height: 60%;
+}
+
+.box-3 {
+    height: 90%;
+    background-color: hsl(186, 34%, 60%);
+}
+
+.box-4 {
+    height: 55%;
+}
+
+.box-5 {
+    height: 40%;
+}
+
+.box-6 {
+    height: 75%;
+}
+
+.box-7 {
+    height: 45%;
+}
+
+.lower-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower-bottom-left {
+    text-align: start;
+    font-size: 14px;
+}
+
+.price-2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.lower-bottom-right {
+    text-align: end;
+    font-size: 12px;
+}
+
+.percent {
+    font-weight: 700;
+    font-size: 14px;
+}
+
